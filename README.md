@@ -3,6 +3,10 @@ Ising
 
 tools to obtain phase diagrams of 2D Ising model by diagonalization of transfer matrix
 
+## State of the project
+
+I concluded my calculations, but code is very messy. I'm no longer interested in the subject so it will probably never be cleaned up.
+
 ## Requirements
 
 Project requires [Numpy](http://www.numpy.org), prior knowledge and understanding of [Ising model](http://en.wikipedia.org/wiki/Ising_model) and transition matrix. Information about that can be found in [Exactly Solved Models in Statistical Mechanics](http://physics.anu.edu.au/theophys/baxter_book.php) by R. J. Baxter or in my paper. Plotting functions were written with [IPython notebook](http://ipython.org/notebook.html) in mind.
@@ -24,16 +28,3 @@ Project requires [Numpy](http://www.numpy.org), prior knowledge and understandin
 
     i9.plot()  # plots and shows all calculated phase diagrams using pyplot
 
-Examples: 
-
-- magnetization as function of field
-
-![magnetization as function of field](http://jerry.mydevil.net/img/MH.png)
-
-- magnetic susceptibility as function of 1/temperature
-
-![magnetic susceptibility as function of 1/temperature](http://jerry.mydevil.net/img/XB.png)
-
-## State of the project
-
-I concluded my calculations, but code requires some cleaning up. If you wish to use it please contact me.
